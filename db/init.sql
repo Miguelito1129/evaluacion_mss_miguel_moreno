@@ -5,7 +5,7 @@ USE academia_agustiniana_db;
 CREATE TABLE IF NOT EXISTS artistas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100),
-    genero VARCHAR(50),
+    genero VARCHAR(100),
     ultimo_exito VARCHAR(100),
     popularidad INT
 );
